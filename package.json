@@ -1,0 +1,27 @@
+{
+  "name": "weather_dashboard_tdd",
+  "version": "1.0.0",
+  "description": "A better weather dashboard for our clients",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --verbose-test --setupFiles dotenv/config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaiscmky/weather_dashboard_tdd.git"
+  },
+  "author": "Lydia, Anthony, Caleb, Sergio",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/thaiscmky/weather_dashboard_tdd/issues"
+  },
+  "homepage": "https://github.com/thaiscmky/weather_dashboard_tdd#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
