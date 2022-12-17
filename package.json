@@ -4,7 +4,8 @@
   "description": "A better weather dashboard for our clients",
   "main": "app.js",
   "scripts": {
-    "test": "jest --verbose-test --setupFiles dotenv/config"
+    "test": "jest --verbose-test --setupFiles dotenv/config",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
